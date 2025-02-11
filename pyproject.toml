@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "p8-bigdata"
+version = "0.1.0"
+description = ""
+authors = ["DamSha <chauvet.damien@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+notebook = "^7.3.2"
+jupyter = "^1.1.1"
+pyspark = "^3.5.4"
+pandas = "^2.2.3"
+pyarrow = "^19.0.0"
+pillow = "^11.1.0"
+tensorflow-io = {version = "0.27.0", extras = ["tensorflow"]}
+numpy = "^1.22"
+scikit-learn = "^1.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
